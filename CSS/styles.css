@@ -1,0 +1,69 @@
+/* Reset CSS*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.navbar-nav {
+	font-size: 80%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav {
+    background-color: #375474;
+}
+
+
+.navbar-brand {
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: 1;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+div#navbarNavDropdown.collapse.navbar-collapse { /* menú desplegado ubicado a la derecha en desktop*/
+    flex-direction: row-reverse;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-body {
+    background-color: #fed177;
+}
+
+
+div.col-1 {
+    background-color: #fed177;
+}
+
+div.col-12 mt-0 px-0 {
+    background-color: #fed177 ;
+}
+
+div.row {
+    background-color: #fed177;
+}
+
+footer {
+    background-color: #375474;
+}
+
+form {
+    background-color: #fed177 ;
+}
+
